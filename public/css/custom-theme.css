@@ -1,0 +1,48 @@
+/* Claude-inspired theme for Filament */
+
+:root {
+    --canvas-color: #faf9f5;
+    --ink-color: #141413;
+    --primary-coral: #cc785c;
+}
+
+.fi-layout {
+    background-color: var(--canvas-color) !important;
+}
+
+.fi-sidebar {
+    background-color: #f5f0e8 !important; /* surface-soft from design doc */
+    border-right: 1px solid #e6dfd8 !important;
+}
+
+.fi-header-heading {
+    font-family: 'Copernicus', 'Tiempos Headline', 'Georgia', serif !important;
+    color: var(--ink-color) !important;
+    letter-spacing: -0.5px !important;
+}
+
+.fi-logo {
+    color: var(--ink-color) !important;
+}
+
+.fi-topbar {
+    background-color: var(--canvas-color) !important;
+    border-bottom: 1px solid #e6dfd8 !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Card styles */
+.fi-section, .fi-ta-ctn {
+    background-color: #efe9de !important; /* surface-card */
+    border: 1px solid #e6dfd8 !important;
+    border-radius: 12px !important;
+}
+
+.fi-ta-header-cell-label {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.75rem;
+    color: #6c6a64 !important;
+}
